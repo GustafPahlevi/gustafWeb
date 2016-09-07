@@ -104,5 +104,31 @@ header .header-content .header-content-inner p {
     margin-right: auto;
     font-family: Kepler-Thn;
   }
+}
 
+.quote-steve {
+  margin-top: 5%;
+}
+
+.img-steve {
+  width: 450px;
+}
+
+.blockquote-reverse {
+  margin-top: 10%;
+  font-family: Kepler-Thn;
+}
+
+.blockquote-reverse p {
+  font-size: 50px;
+}
+
+.blockquote-reverse footer {
+  font-size: 30px;
+}
+
+
+.about {
+  background-color: #ebebeb;
+  height: 300px;
 }
