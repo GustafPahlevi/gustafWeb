@@ -1,0 +1,25 @@
+@import 'bourbon/bourbon'; // Include Bourbon
+$bg-and-border: #BEBCBC; // Base color
+
+@include keyframes(scroll) { // Animated circle keyframes
+  0% { @include transform(translateY(0)) }
+  50% { @include transform(translateY(10px)) }
+  100% { @include transform(translateY(0)) }
+}
+
+.mouse { // Mouse icon
+  display: inline-block;
+  bottom: 0;
+  @include size(28px 44px); // Define sizes
+  border-radius: 12px; // Define edge radius
+  border: 2px solid $bg-and-border; // Edge width and colors
+  text-align: center; // Center animated circle in mouse icon
+  &:after { // Animated circle
+    display: inline-block;
+    @include size(8px); // Circle size
+    background-color: $bg-and-border; // Circle color
+    border-radius: 50%; // Become rounded corner
+    content: "";
+    @include animation(scroll 1.3s ease-out infinite forwards); // Keyframe animation
+  }
+}

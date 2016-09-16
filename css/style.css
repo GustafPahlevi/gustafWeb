@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Kepler', sans-serif;
 }
 
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
 header {
   background: url(../img/header-b1.jpg) no-repeat center top;
   position: relative;
@@ -134,8 +138,59 @@ header .header-content .header-content-inner p {
   line-height: 50px;
 }
 
-.gallery img {
-  float: left;
-	margin:0 !important;
-  width: 20%;
+.left-half {
+  background: url(../img/oil.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-sizr:cover;
+  background-size: cover;
+  height: 500px;
+}
+
+.left-half p {
+  font-size: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ECECEC;
+  font-style: italic;
+  font-family: 'Kepler-Thn';
+  height: 100%;
+  line-height: 80px;
+  text-align: center;
+  word-spacing: 999px;
+  padding-top: 10%;
+}
+
+.right-half {
+  text-align: center;
+  font-style: italic;
+  padding-top: 10%;
+}
+
+.right-half a {
+  font-size: 70px;
+  font-family: 'Kepler-Thn';
+  color: #555;
+  text-transform: capitalize;
+}
+
+.right-half li {
+  list-style-type: none;
+  line-height: 70px;
+}
+
+/* LEFT TO RIGHT */
+.sliding-u-l-r {
+display: inline-block;
+}
+.sliding-u-l-r:after {
+content: '';
+display: block;
+height: 2px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+.sliding-u-l-r:hover:after {
+width: 100%;
+background: #555;
 }
