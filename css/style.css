@@ -20,10 +20,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Kepler', sans-serif;
 }
 
-p {
-  font-family: 'Kepler', sans-serif;
-}
-
 header {
   background: url(../img/header-b1.jpg) no-repeat center top;
   position: relative;
@@ -73,7 +69,7 @@ header .header-content .header-content-inner p {
 
   header img {
     padding-top: 20px;
-    width: 300px;
+    width: 230px;
   }
 
   header .header-content {
@@ -102,7 +98,7 @@ header .header-content .header-content-inner p {
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Kepler-Thn;
+    font-family: 'Kepler-Thn';
   }
 }
 
@@ -127,8 +123,19 @@ header .header-content .header-content-inner p {
   font-size: 30px;
 }
 
-
 .about {
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #ebebeb;
-  height: 300px;
+  text-align: center;
+  font-family: 'Kepler-Thn';
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.gallery img {
+  float: left;
+	margin:0 !important;
+  width: 20%;
 }
