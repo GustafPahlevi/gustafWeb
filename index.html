@@ -7,7 +7,7 @@
   <meta name="description" content="personalWeb-gustafpahlevi">
   <meta name="author" content="__gustafpahlevi__">
 
-  <title>Gustaf Pahlevi</title>
+  <title>Gustaf Pahlevi | Front-end Developer</title>
   <!-- Icon Title -->
   <link rel="shortcut icon" type="image" href="img/logo-g.png">
   <!-- Bootstrap CSS -->
@@ -29,11 +29,11 @@
 
     </div>
     <div class="center-it">
-      <div class="mouse"></div>
+      <div class="mouse" id="btn-scroll"></div>
     </div>
   </header>
 
-  <section class="quote-steve">
+  <section class="quote-steve" id="scroll-vw">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -57,20 +57,42 @@
     </div>
   </section>
 
-  <div class="row">
-    <div class="col-md-6">
+  <div class="row no-padding top-shows rem-space-children">
+
+    <div class="col-md-3"><img src="img/gp1.jpeg" class="img-responsive"/></div>
+    <div class="col-md-3"><img src="img/gp2.jpeg" class="img-responsive"/></div>
+    <div class="col-md-3"><img src="img/gp3.jpeg" class="img-responsive"/></div>
+    <div class="col-md-3"><img src="img/gp4.jpeg" class="img-responsive"/></div>
+  </div>
+
+  <div class="skill-section">
+    <div class="container">
+      <h1>&lt/&gt Development</h1>
+
+        <img class="grayscale" src="img/html.png" width="100">
+        <img class="grayscale" src="img/css-copy.png" width="100">
+        <img class="grayscale" src="img/javascript-copy.png" width="100">
+        <img class="grayscale" src="img/jquery-logo.png" width="100">
+        <img class="grayscale" src="img/sass.svg" width="100">
+        <img class="grayscale" src="img/bootstrap-logo.png" width="200">
+        <img class="grayscale" src="img/php-logo.png" width="100">
+        <img class="grayscale" src="img/Photoshop.png" width="80">
+
+      </div>
+  </div>
+
+
+  <div class="row no-padding">
+    <div class="col-md-6 no-padding">
       <div class="left-half">
-        <p>GET IN TOUCH</p>
+        <p>- GUSTAF/PAHLEVI -</p>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 no-padding">
       <div class="right-half">
-        <li><a class="sliding-u-l-r" href="#" target="_blank">Facebook</a></li>
-        <li><a class="sliding-u-l-r" href="#" target="_blank">Linkedin</a></li>
-        <li><a class="sliding-u-l-r" href="#" target="_blank">Github</a></li>
-        <li><a class="sliding-u-l-r" href="#" target="_blank">E-Mail</a></li>
+        <p>- GET IN TOUCH -</p>
+        <p>You can reach me and say hi at <a href="#" class="sliding-u-l-r">gustafpahlevi@gmail.com</a> or my <a href="#" class="sliding-u-l-r">Facebook</a>, <a href="#" class="sliding-u-l-r">Twitter</a>, <a href="#" class="sliding-u-l-r">Linkedin</a></p>
       </div>
-
     </div>
   </div>
 
@@ -78,5 +100,12 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    $("#btn-scroll").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#scroll-vw").offset().top
+      }, 2000);
+    });
+  </script>
 </body>
 </html>
