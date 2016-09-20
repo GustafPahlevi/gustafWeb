@@ -148,7 +148,7 @@ header .header-content .header-content-inner p {
 }
 
 .left-half p {
-  font-size: 80px;
+  font-size: 65px;
   color: #ECECEC;
   font-style: italic;
   font-family: 'Kepler-Thn';
@@ -231,4 +231,20 @@ img.grayscale {
 img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.work-sec h1 {
+  text-align: center;
+  font-family: 'Kepler-Thn';
+  font-size: 70px;
+}
+
+.social-media {
+  font-size: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
