@@ -161,7 +161,11 @@ header .header-content .header-content-inner p {
   text-align: center;
   font-style: italic;
   padding-top: 20%;
-  background-color: #2C3E50;
+  background: url(../img/oil-copy.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-sizr:cover;
+  background-size: cover;
   color: #FFF;
   height: 400px;
 }
