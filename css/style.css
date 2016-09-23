@@ -253,9 +253,6 @@ img.grayscale:hover {
   margin-right: 2%;
 }
 
-/* ==========================================================================
-Screenshots
-========================================================================== */
 .screenshots ul {
     margin: 0;
     padding: 0;
@@ -265,7 +262,7 @@ Screenshots
     float: left;
     min-height: 100%;
     width: 25%;
-    background-color: #000;
+    background-color: #535a6c;
     list-style: none;
 }
 .screenshots figure {
@@ -299,7 +296,8 @@ Screenshots
 }
 .screenshots figcaption a {
     color: #fff;
-    font-family: 'Kepler-Thn';
+    line-height: 40px;
+    font-size: 30px;
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
     color: #19B5FE;
