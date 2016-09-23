@@ -426,7 +426,7 @@ img.grayscale:hover {
 
   .contact h1 {
     font-size: 35px;
-    padding-top: 14% !important;
+    padding-top: 30% !important;
     padding-bottom:5% !important;
   }
 
@@ -448,6 +448,7 @@ img.grayscale:hover {
 
   .quote-steve p {
     font-size: 25px;
+    line-height: 50px;
   }
 
   .img-steve-hide {
