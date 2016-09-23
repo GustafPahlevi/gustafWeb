@@ -290,7 +290,7 @@ Screenshots
     padding: 25% 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(63, 97, 132, 0.85);
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     font-size: 15px;
     opacity: 0;
@@ -298,10 +298,11 @@ Screenshots
     transition: all 300ms ease-in-out;
 }
 .screenshots figcaption a {
-    color: #fff
+    color: #fff;
+    font-family: 'Kepler-Thn';
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #73d0da
+    color: #19B5FE;
 }
 .screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
     opacity: 1
