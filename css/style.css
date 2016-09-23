@@ -138,39 +138,33 @@ header .header-content .header-content-inner p {
   line-height: 50px;
 }
 
-.left-half {
+.contact {
   background: url(../img/oil-copy.jpg) no-repeat center center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-sizr:cover;
   background-size: cover;
   height: 400px;
+  text-align: center;
 }
 
-.left-half p {
+.contact h1 {
   font-size: 65px;
   color: #ECECEC;
   font-style: italic;
   font-family: 'Kepler-Thn';
   text-align: center;
-  padding-top: 20%;
+  padding-top: 5% !important;
 }
 
-.right-half {
+.contact p {
   font-size: 20px;
   text-align: center;
   font-style: italic;
-  padding-top: 20%;
-  background: url(../img/oil-copy.jpg) no-repeat center center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-sizr:cover;
-  background-size: cover;
   color: #FFF;
-  height: 400px;
 }
 
-.right-half a {
+.contact a {
   color: #19B5FE;
 }
 
