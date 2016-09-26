@@ -380,7 +380,7 @@ img.grayscale:hover {
   opacity: 0.3;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 50px;
   width: 1px;
   margin-left: 35px;
   background-color: #222222;
@@ -392,7 +392,7 @@ img.grayscale:hover {
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 50px;
   width: 1px;
   background-color: #222222;
   transform: rotate(90deg);
