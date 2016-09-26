@@ -372,8 +372,8 @@ img.grayscale:hover {
   width: 75px;
   height: 75px;
   background-color: transparent;
-  top: 25px;
-  right: 25px;
+  top: 15px;
+  right: 15px;
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
@@ -382,7 +382,7 @@ img.grayscale:hover {
 .portfolio-modal .close-modal .lr {
   height: 50px;
   width: 1px;
-  margin-left: 35px;
+  margin-left: 50px;
   background-color: #222222;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
