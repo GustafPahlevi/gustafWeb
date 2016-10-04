@@ -149,7 +149,6 @@ header .header-content .header-content-inner p {
 }
 
 .contact h1 {
-  font-size: 65px;
   color: #ECECEC;
   font-style: italic;
   font-family: 'Kepler-Thn';
@@ -238,7 +237,6 @@ img.grayscale:hover {
 .work-sec h1 {
   text-align: center;
   font-family: 'Kepler-Thn';
-  font-size: 70px;
 }
 
 .social-media {
