@@ -410,51 +410,6 @@ img.grayscale:hover {
   display: none !important;
 }
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  .contact {
-    line-height: 30px;
-  }
-
-  .contact p {
-    font-size: 15px;
-  }
-
-  .contact h1 {
-    font-size: 35px;
-    padding-top: 30% !important;
-    padding-bottom:5% !important;
-  }
-
-  .work-sec h1 {
-    font-size: 40px;
-  }
-
-  .about p {
-    font-size: 20px;
-  }
-
-  .img-steve {
-    display: none !important;
-  }
-
-  .mouse {
-    display: none !important;
-  }
-
-  .quote-steve p {
-    font-size: 25px;
-    line-height: 50px;
-  }
-
-  .img-steve-hide {
-    display: block !important;
-  }
-}
-
 .portfolio-box {
   position: relative;
   display: block;
