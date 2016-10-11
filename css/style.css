@@ -155,9 +155,8 @@ header .header-content .header-content-inner p {
   -moz-background-size:cover;
   -o-background-sizr:cover;
   background-size: cover;
-  height: 320px;
+  height: 300px;
   text-align: center;
-
 }
 
 .contact h1 {
@@ -166,7 +165,7 @@ header .header-content .header-content-inner p {
   font-family: 'Pacifico';
   text-align: center;
   font-size: 60px;
-  padding-top: 3% !important;
+  padding-top: 4% !important;
   padding-bottom: 2%;
 }
 
