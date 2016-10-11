@@ -2,9 +2,15 @@
   font-family: Kepler;
   src: url('../fonts/KeplerStd-Regular.ttf');
 }
+
 @font-face {
   font-family: Kepler-Thn;
   src: url('../fonts/KeplerStd-LightDisp.ttf');
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url('../fonts/Pacifico.ttf');
 }
 
 body {
@@ -138,33 +144,45 @@ header .header-content .header-content-inner p {
   line-height: 50px;
 }
 
+.about h2 {
+  font-family: 'Pacifico';
+  font-size: 50px;
+}
+
 .contact {
-  background: url(../img/oil-copy-c1.jpg) no-repeat center center fixed;
+  background-color: #EEEEEE;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-sizr:cover;
   background-size: cover;
-  height: 400px;
+  height: 330px;
   text-align: center;
+
 }
 
 .contact h1 {
-  color: #ECECEC;
+  color: #555;
   font-style: italic;
-  font-family: 'Kepler-Thn';
+  font-family: 'Pacifico';
   text-align: center;
-  padding-top: 5% !important;
+  font-size: 60px;
+  padding-top: 3% !important;
+  padding-bottom: 2%;
 }
 
 .contact p {
   font-size: 20px;
   text-align: center;
   font-style: italic;
-  color: #FFF;
+  color: #555;
 }
 
 .contact a {
-  color: #19B5FE;
+  color: #555;
+}
+
+.contact a:hover {
+  color: #F62459;
 }
 
 .right-half li {
@@ -184,7 +202,7 @@ transition: width .5s ease, background-color .5s ease;
 }
 .sliding-u-l-r:hover:after {
 width: 100%;
-background: #19B5FE;
+background: #F62459;
 }
 
 .no-padding {
@@ -235,18 +253,20 @@ img.grayscale:hover {
 }
 
 .work-sec {
-  padding-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .work-sec h1 {
   text-align: center;
   font-family: 'Kepler-Thn';
+  font-size: 50px;
 }
 
 .social-media {
   font-size: 30px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .screenshots ul {
