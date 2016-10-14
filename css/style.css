@@ -56,10 +56,14 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-style: italic;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+  font-weight: 500;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header .header-content .header-content-inner hr {
@@ -95,11 +99,14 @@ header .header-content .header-content-inner p {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
   }
 
   header .header-content .header-content-inner h1{
     font-size: 80px;
-    letter-spacing: 8px;
+    letter-spacing: 15px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
   }
 
   header .header-content .header-content-inner p {
@@ -155,7 +162,7 @@ header .header-content .header-content-inner p {
   -moz-background-size:cover;
   -o-background-sizr:cover;
   background-size: cover;
-  height: 300px;
+  height: 325px;
   text-align: center;
 }
 
