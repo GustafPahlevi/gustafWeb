@@ -56,14 +56,11 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-  text-transform: uppercase;
   letter-spacing: 4px;
-  font-style: italic;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
-  font-weight: 500;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Kepler-Thn';
 }
 
 header .header-content .header-content-inner hr {
@@ -104,9 +101,8 @@ header .header-content .header-content-inner p {
 
   header .header-content .header-content-inner h1{
     font-size: 80px;
-    letter-spacing: 15px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Kepler-Thn';
+    letter-spacing: 10px;
   }
 
   header .header-content .header-content-inner p {
@@ -162,7 +158,7 @@ header .header-content .header-content-inner p {
   -moz-background-size:cover;
   -o-background-sizr:cover;
   background-size: cover;
-  height: 325px;
+  height: 315px;
   text-align: center;
 }
 
