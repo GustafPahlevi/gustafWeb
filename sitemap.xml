@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>gustafpahlevi.com/about/</loc>
+    <loc>localhost/about/</loc>
     <lastmod>2020-09-02T21:07:46+07:00</lastmod>
   </url>
   
   <url>
-    <loc>gustafpahlevi.com/blog/</loc>
+    <loc>localhost/blog/</loc>
   </url>
   
   <url>
-    <loc>gustafpahlevi.com/</loc>
+    <loc>localhost/</loc>
   </url>
   
   <url>
-    <loc>gustafpahlevi.com/series/</loc>
+    <loc>localhost/series/</loc>
   </url>
   
   <url>
-    <loc>gustafpahlevi.com/tags/</loc>
+    <loc>localhost/tags/</loc>
   </url>
   
 </urlset>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hello World! I&#39;m Gustaf.</title>
-    <link>gustafpahlevi.com/tags/</link>
+    <link>localhost/tags/</link>
     <description>Recent content in Tags on Hello World! I&#39;m Gustaf.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Gustaf Pahlevi</copyright><atom:link href="gustafpahlevi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Gustaf Pahlevi</copyright><atom:link href="localhost/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/gustaf.pahlevi/Documents/Experimental/PersonalWebsite/new_website",
+	"sourceRoot": "/Users/gustaf.pahlevi/Documents/Experimental/PersonalWebsite/third_web",
 	"sources": [
 		"themes/hugo-theme-hello-friend-ng/assets/scss/main.scss",
 		"themes/hugo-theme-hello-friend-ng/assets/scss/_normalize.scss",
