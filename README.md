@@ -1,2 +1,0 @@
-# gustafWeb
-author : Gustaf Pahlevi
